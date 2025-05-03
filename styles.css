@@ -1,0 +1,403 @@
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(assests/fonts/Raleway/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: Raleway-ExtraBold;
+    src: url(assests/fonts/Raleway/Raleway-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(assests/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Open_Sans-Regular;
+    src: url(assests/fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(assests/fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: Open_Sans-Light;
+    src: url(assests/fonts/Open_Sans/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: Monteserrat-Regular;
+    src: url(assests/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Nunito-Medium;
+    src: url(assests/fonts/Nunito/Nunito-Medium.ttf);
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.img1{
+    background-image: url(assests/Untitled\ design.png);
+    background-size: cover;
+}
+.img2{
+    background-color: #d7d7d7;
+}
+.img3{
+    background-color: #d7d7d7;
+}
+.img4{
+    background-color: #1a1a1a;
+}
+.img5{
+    background-color: #d7d7d7;
+}
+
+.bg{
+    width: 100vw;
+    height: 100vh;  
+}
+nav{
+    display: flex;
+    gap: 100px;
+    padding-top: 50px;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+nav button:hover{
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+}
+#logo{
+    margin-right: 40em;
+    margin-left: 5em;
+}
+#profile-pic{
+    padding-top: 7.85em;
+}
+nav button{
+    border-radius: 20px;
+    border: none;
+}
+.display{
+    color: #FFFFFF;
+    display: flex;    
+}
+.text{
+    padding-left: 25em;
+    padding-top: 10em;
+}
+.text b:nth-child(1){
+    font-family: Raleway-Bold;
+    font-size: 30px;
+    
+}
+.text b:nth-child(5){
+    font-family: Raleway-Bold;
+    font-size: 50px;
+}
+.text b:nth-child(8){
+    font-family: Raleway-ExtraBold;
+    font-size: 20px;
+    color: #73C2FB;
+}
+
+.linkedin_bg, .github_bg{
+    width: 45px;
+    height: 40px;
+    background-image: url(assests/Rectangle\ 68.png);
+    margin-top: 8em;
+}
+
+.github_bg img{
+    width: 25px;
+    height: 25px;
+    padding-top: 7px;
+    padding-left: 11px;
+}
+.linkedin_bg img{
+    width: 25px;
+    height: 25px;
+    padding-top: 7px;
+    padding-left: 11px;
+}
+.logos{
+    height: 18em;
+    display: flex;
+    gap: 40px;
+}
+#img2 button:nth-child(1){
+    background-color: #d7d7d7;
+    margin-top: 40px;
+    margin-left: 35em;
+    width: 17em;
+    height: 4em;
+    font-family: Montserrat-Bold;
+    border-width:thick;
+    font-size: large;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+
+}
+#img2 b:nth-child(7){
+    font-weight: normal;
+    margin-left: 35em;
+    font-family: Open_Sans-Regular;
+    font-size: small;
+    
+}
+#img2 b:nth-child(9){
+    font-weight: normal;
+    margin-left: 50em;
+    font-family: Open_Sans-Regular;
+    font-size: small;
+}
+#img2 button:nth-child(11){
+    background-color: #d7d7d7;
+    margin-top: 5em;
+    margin-left: 75em;
+    width: 8em;
+    height: 1.5em;
+    font-family: Montserrat-SemiBold;
+    border-top: #d7d7d7;
+    border-bottom: #d7d7d7;
+    font-size: 10PX;
+
+}
+#img2 img{
+    width: 7em;
+    margin-left: 46em;
+    margin-top: 4em;
+}
+.abilities{
+    display: flex;
+    gap: 0px;
+    margin-top: 5em;
+}
+.abilities div:first-child{
+    margin-left: 20em;
+    width: 35em;
+}
+.abilities div:last-child{
+    margin-left: 10em;
+    width: 50em;
+}
+#img2 div:nth-child(15){
+    margin-top: 3em;
+    width: 40em;
+    margin-left: 49em;
+}
+#img2 h3{
+    font-family: Montserrat-Bold;
+}
+#img2 p{
+    font-family: Open_Sans-Light;
+}
+#img2 div{
+    font-size: small;
+}
+#img3 button:nth-child(1){
+    background-color: #d7d7d7;
+    margin-top: 30px;
+    margin-left: 35em;
+    width: 17em;
+    height: 4em;
+    font-family: Montserrat-Bold;
+    border-width:thick;
+    font-size: large;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+
+}
+#img3 h5{
+    margin-left: 38.5em;
+    margin-top: 4em;
+    font-family: Montserrat-Bold;
+    letter-spacing: 3px;
+}
+.row-one{
+    display: flex;
+    gap: 6.5em;
+}
+#img3 img{
+    width: 40px;
+    height: 45px;
+}
+.row-two{
+    display: flex;
+    gap: 6.5em;
+}
+.row-one div:first-child{
+    margin-left: 32em;
+}
+.row-two div:first-child{
+    margin-left: 32em;
+}
+.row-one div:nth-child(3) img{
+    margin-left: 1em;
+    width: 47px;
+}
+.row-one div:nth-child(4) p{
+    margin-left: 4px;
+}
+.row-one p{
+    font-family: Monteserrat-Regular;
+    font-size: small;
+}
+.row-two p{
+    font-family: Monteserrat-Regular;
+    font-size: small;
+}
+.row-three{
+    display: flex;
+    gap: 5.8em;
+}
+.row-three div:first-child{
+    margin-left: 32em;
+}
+.row-three p, pre{
+    font-family: Monteserrat-Regular;
+    font-size: small;
+}
+.row-three div:first-child img{
+    margin-left: 5px;
+}
+.row-three div:last-child p{
+    margin-left: 7px;
+}
+
+#img4 div:first-child{
+    background-image: url(assests/portfolio/image\ 12.png);
+    background-size: 100vw 13em;
+}
+#img4 div{
+    width: 100vw;
+    height: 13em
+}
+#img4 div:first-child button{
+    margin-top: 3.5em;
+    margin-left: 35em;
+    width: 17em;
+    height: 4em;
+    font-family: Montserrat-Bold;
+    border-width:thick;
+    font-size: large;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    background-color: transparent;
+
+}
+#img4 div:nth-child(2){
+    width: 100vw;
+    height: 4em;
+    background-color:cadetblue;
+    margin-bottom: 30px;
+
+}
+#img4 div:nth-child(3){
+    display: grid;
+    grid-template-columns: 270px 270px;
+    grid-template-rows: 229px 229px;
+    margin-left: 32em;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+#img4 div:nth-child(3) img:hover{
+    cursor: pointer;
+    row-gap: 50px;
+}
+#img4 div:nth-child(3) img{
+    width: 270px;
+    height: 229px;
+}
+h2{
+    margin-left: 29em;
+    font-size: large;
+    text-decoration:underline;
+    color: whitesmoke;
+    font-family: Montserrat-SemiBold;
+}
+#img5 div:first-child button{
+    margin-top: 3.5em;
+    margin-left: 35em;
+    width: 17em;
+    height: 4em;
+    font-family: Montserrat-Bold;
+    border-width:thick;
+    font-size: large;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    background-color: transparent;
+
+}
+#img5 b:nth-child(6){
+    font-weight: normal;
+    margin-left: 35em;
+    font-family: Open_Sans-Regular;
+    font-size: small;
+    
+}
+#img5 b:nth-child(8){
+    font-weight: normal;
+    margin-left: 45em;
+    font-family: Open_Sans-Regular;
+    font-size: small;
+}
+#img5 div:nth-child(10){
+    display:flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 27em;
+    margin-left: 35em;
+    margin-top: 4em;
+}
+#img5 div:nth-child(10) input{
+    color: black;
+    font-family: Montserrat-Bold;
+    font-size:small;
+}
+#img5 div:nth-child(10) input:nth-child(4){
+    height: 10em;
+}
+#img5 div:nth-child(10) button{
+    width: 11em;
+    height: 20px;
+    margin-left: 16em;
+    border-top: #d7d7d7;
+    border-bottom: #d7d7d7;
+    background-color: #d7d7d7;
+    font-family: Montserrat-Bold;
+    font-size: 10px;
+    cursor: pointer;
+}
+#img5 div:last-child p{
+    margin-left: 69em;
+    vertical-align: text-bottom;
+    font-size:x-small;
+    font-family: Nunito-Medium;
+}
+#img5 img{
+    width: 7em;
+    margin-left: 45em;
+    margin-top: 4em;
+}
+#img5 div:last-child{
+    background-color: #1a1a1a;
+    width: 100vw;
+    height: 40px;
+    margin-top: 3em;
+    color: whitesmoke;
+    
+}   
+
+
+
+
