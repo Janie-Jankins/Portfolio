@@ -359,18 +359,14 @@ h2{
     margin-left: 35em;
     margin-top: 4em;
 }
-#img5 div:nth-child(10) input{
-    color: black;
-    font-family: Montserrat-Bold;
-    font-size:small;
-}
+
 #img5 div:nth-child(10) input:nth-child(4){
     height: 10em;
 }
 #img5 div:nth-child(10) button{
     width: 11em;
     height: 20px;
-    margin-left: 16em;
+    margin-left: 72em;
     border-top: #d7d7d7;
     border-bottom: #d7d7d7;
     background-color: #d7d7d7;
@@ -390,11 +386,11 @@ h2{
     margin-top: 4em;
 }
 #img5 div:last-child{
-    background-color: #1a1a1a;
     width: 100vw;
     height: 40px;
     margin-top: 3em;
     color: whitesmoke;
+    margin-left: 0;
     
 }   
 
